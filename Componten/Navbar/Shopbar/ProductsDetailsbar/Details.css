@@ -1,0 +1,30 @@
+.main-continer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px ;
+}
+.Data-cart{
+    width: 400px;
+    font-size: 2rem;
+    
+}
+.Data-cart button{
+    width: 200px;
+    height: 40px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.Data-cart h3{
+    padding: 10px 0px;
+}
+.Data-cart p{
+    font-size: 1rem;
+    padding: 20px 0px ;
+}
+.Data-cart button:hover{
+    background-color: aqua;
+    transition: 1s;
+}

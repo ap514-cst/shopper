@@ -1,0 +1,23 @@
+.delta hr{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+.Details-text {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5rem;
+    color: aqua;
+}
+.delta{
+    padding: 30px;
+}
+.futter-div{
+    padding: 7rem ;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}

@@ -1,0 +1,13 @@
+.continer{
+    display: flex;
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+.list-cart button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}

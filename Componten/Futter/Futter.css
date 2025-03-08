@@ -1,0 +1,36 @@
+.futter-cart{
+    display: flex;
+    justify-content: center;
+    
+}
+.futter-cart ul{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 1.3rem;
+}
+
+.link-cart{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    
+}
+.link-cart ul{
+    display: flex;
+    gap: 10px;
+    font-size: 1.4rem;
+    
+}
+
+.hr-tag hr{
+    border: 1px solid black;
+    width: 80%;
+    justify-content: center;
+}
+.hr-tag{
+    display: flex;
+    justify-content: center;
+}

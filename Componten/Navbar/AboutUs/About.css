@@ -1,0 +1,86 @@
+.text-about h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 8px 0px;
+}
+.text-about hr{
+    display: flex;
+    width: 70%;
+    text-align: center;
+
+}
+.hr-div{
+    display: flex;
+}
+.main-about-text{
+    display: flex;
+    justify-content: space-around;
+}
+.about-text-div{
+    font-size: 2rem;
+}
+.about-text-div p{
+    font-size: 1.7rem;
+    padding: 20px 0px;
+}
+.about-text-div button{
+    font-size: 1.6rem;
+    width: 230px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.about-text-div button:hover{
+    background-color: aquamarine;
+    transition: 1s;
+}
+.about-text-div button:active{
+    background-color: black;
+    color: white;
+}
+
+.main-skill-div{
+    display: flex;
+    justify-content: center;
+    
+}
+.continer-skills-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.skill{
+    width: 130px;
+    height: 140px;
+    border: 1px solid ;
+    padding: 20px;
+}
+.skill h2{
+    text-align: center;
+    font-size: 1.7rem;
+} 
+.skill span{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: aqua;
+    padding: 10px 0px;
+}
+.skill button{
+    width: 70px;
+    height: 30px;
+    margin:0px 30px;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    border: 10px;
+    color: cadetblue;
+}
+.skill button:hover{
+    background-color: azure;
+}
+.skill:hover{
+    transform: skewY(20deg);
+    transition: 1s;
+    
+    background-color: blanchedalmond;
+}
